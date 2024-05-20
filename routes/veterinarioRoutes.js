@@ -1,5 +1,5 @@
 import express from 'express';
-import { perfil, registrar, confirmar, autenticar, olvidePassword, comprobarToken, nuevoPassword } from '../controllers/veterinarioController.js';
+import { perfil, registrar, confirmar, autenticar, olvidePassword, comprobarToken, nuevoPassword, actualizarPerfil, actualizarPassword } from '../controllers/veterinarioController.js';
 import checkAuth from '../middleware/authMiddleware.js';
 
 const router = express.Router();
@@ -13,5 +13,7 @@ router.route('/olvide-password/:token').get(comprobarToken).post(nuevoPassword) 
 
 // Área privada
 router.get('/perfil', checkAuth, perfil);  // chequea el perfil, ejecuta el middleware y si el usuario no tiene un token valido pasa al siguiente middleware (perfil) 
+router.put('/perfil/:id', checkAuth, actualizarPerfil);
+router.put('/actualizar-password', checkAuth, actualizarPassword);
 
 export default router;
