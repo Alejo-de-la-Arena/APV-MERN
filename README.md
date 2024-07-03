@@ -15,14 +15,10 @@ Además, incluye un sistema de autenticación para los veterinarios, asegurando 
 
 ## 🚀 Tecnologías y Herramientas Utilizadas
 
-- **Node.js**: Entorno de ejecución para construir el backend.
-- **Express**: Framework para la creación de servidores y APIs REST.
-- **MongoDB**: Base de datos NoSQL para almacenar la información de veterinarios y pacientes.
-- **Mongoose**: ODM para MongoDB, facilitando la interacción con la base de datos.
-- **JWT (JSON Web Token)**: Para la autenticación y autorización de usuarios.
-- **Bcrypt**: Para el hashing de contraseñas.
-- **Nodemailer**: Para el envío de correos electrónicos en el proceso de inicio de sesión y recuperación de contraseñas.
-- **CORS**: Middleware para permitir solicitudes de diferentes dominios.
-
-## 📂 Estructura del Proyecto
-
+![Node.js](https://img.shields.io/badge/Node.js-43853d?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
+![Bcrypt](https://img.shields.io/badge/Bcrypt-4A154B?style=for-the-badge&logo=bcrypt&logoColor=white)
+![Nodemailer](https://img.shields.io/badge/Nodemailer-000000?style=for-the-badge&logo=nodemailer&logoColor=white)
